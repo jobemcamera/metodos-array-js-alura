@@ -4,18 +4,18 @@ Neste curso, pude aprender a criar filtros de uma lista (API).
 
 Foram utilizados métodos de array para o consumo e manipulação dos dados contidos na API. São eles:
 
-- Método forEach;
-- Método map;
-- Método filter;
-- Método sort;
-- Método reduce.
+- Método ```forEach```;
+- Método ```map```;
+- Método ```filter```;
+- Método ```sort```;
+- Método ```reduce```.
 
 Em cada destes métodos pude aprimorar ou aprender coisas novas.
 
 ---
 ## O que eu aprendi
 
-Para o método forEach, consolidei o conhecimento de operador ternário
+Para o método ```forEach```, consolidei o conhecimento de operador ternário
 
 ```js
 function exibirOsLivrosNaTela(listaDeLivros) {
@@ -41,7 +41,7 @@ function exibirOsLivrosNaTela(listaDeLivros) {
 }
 ```
 ---
-Para o método map, aprendi como utilizar o operador spread (...) 
+Para o método ```map```, aprendi como utilizar o operador ```spread (...)``` 
 
 ```javascript
 function aplicarDesconto(livros) {
@@ -54,7 +54,7 @@ function aplicarDesconto(livros) {
 }
 ```
 ---
-Para o método filter, assim como o forEach, consolidei o conhecimento de operador ternário
+Para o método ```filter```, assim como o ```forEach```, consolidei o conhecimento de operador ternário
 
 ```javascript
 function filtrarLivros() {
@@ -71,7 +71,7 @@ function filtrarLivros() {
 }
 ```
 ---
-Para o método sort, aprendi a ordenar de maneira simples uma lista de acordo com a necessidade
+Para o método ```sort```, aprendi a ordenar de maneira simples uma lista de acordo com a necessidade
 
 ```javascript 
 function ordenarLivrosPorPreco() {
@@ -82,7 +82,7 @@ function ordenarLivrosPorPreco() {
 }
 ```
 ---
-E finalmente, para o método reduce, aprendi a como reduzir uma array inteira a um único valor de acordo com a finalidade
+E finalmente, para o método ```reduce```, aprendi a como reduzir uma array inteira a um único valor de acordo com a finalidade
 
 ```javascript
 function calcularValorTotalDeLivrosDisponiveis(livros) {
